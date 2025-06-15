@@ -1,5 +1,3 @@
-import { Jogador } from "./../class/class.js";
-
 let listaJogador = []; //conjunto de dados
 let oQueEstaFazendo = ''; //variável global de controle
 let jogador = null; //variavel global 
@@ -355,3 +353,4 @@ function configurarInputsNumericos() {
         inputsNumericos[i].addEventListener('keydown', validarEntradaNumerica);
     }
 }
+
